@@ -38,7 +38,7 @@ const Video = ({
             onClick={onVideoPress}
             ref={videoRef}
           >
-            <source src={videoUrl} />
+            <source src={url} />
           </video>
           {/* <iframe className='video__player' src="https://www.youtube.com/embed/yiZQKILX63M" title="Blueface asks Mike Tyson how many babymommas he has 😮😂"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe> */}
           <VideoFooter 
